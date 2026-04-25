@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://de-saison.nc/sitemap.xml
+Sitemap: https://fruits-legumes-nc.netlify.app/sitemap.xml
