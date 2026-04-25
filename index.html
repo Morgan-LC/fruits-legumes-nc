@@ -1,20 +1,60 @@
 <!doctype html>
 <html lang="fr">
-   <script>                                                                                                                                                                                    
-    (function () {                                                  
-      var redirect = sessionStorage.redirect;                                                                                 
-      delete sessionStorage.redirect;                                                                                                                                                         
-      if (redirect && redirect !== location.href) {
-        history.replaceState(null, null, redirect);                                                                                                                                           
-      }                                                                                                                                                                                       
-    })();                                                                                                                     
-  </script>    
   <head>
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Calendrier saisonnier des fruits et légumes produits localement en Nouvelle-Calédonie." />
-    <title>Fruits &amp; Légumes NC — Calendrier saisonnier</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#16a34a" />
+
+    <!-- SEO principal -->
+    <title>Fruits &amp; Légumes NC — Calendrier saisonnier Nouvelle-Calédonie</title>
+    <meta name="description" content="Découvrez les fruits et légumes de saison produits localement en Nouvelle-Calédonie, mois par mois. Données IFEL / CAP-NC 2022." />
+    <meta name="keywords" content="fruits légumes Nouvelle-Calédonie, calendrier saisonnier NC, produits locaux Calédonie, fruits de saison Calédonie, légumes locaux NC" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://de-saison.nc/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fruits &amp; Légumes NC" />
+    <meta property="og:url" content="https://de-saison.nc/" />
+    <meta property="og:title" content="Fruits &amp; Légumes NC — Calendrier saisonnier Nouvelle-Calédonie" />
+    <meta property="og:description" content="Découvrez les fruits et légumes de saison produits localement en Nouvelle-Calédonie, mois par mois. Données IFEL / CAP-NC 2022." />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Fruits &amp; Légumes NC — Calendrier saisonnier" />
+    <meta name="twitter:description" content="Découvrez les fruits et légumes de saison produits localement en Nouvelle-Calédonie." />
+
+    <!-- JSON-LD : WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Fruits & Légumes NC",
+      "url": "https://de-saison.nc",
+      "description": "Calendrier saisonnier des fruits et légumes produits localement en Nouvelle-Calédonie.",
+      "inLanguage": "fr",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://de-saison.nc/fruits?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

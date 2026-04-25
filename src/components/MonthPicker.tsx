@@ -14,7 +14,7 @@ export function MonthPicker({ selected, onChange }: MonthPickerProps) {
           key={i}
           onClick={() => onChange(i)}
           className={cn(
-            "px-3 py-1.5 rounded-full text-sm font-medium transition-colors",
+            "px-3 py-2 md:py-1.5 rounded-full text-sm font-medium transition-colors",
             selected === i
               ? "bg-green-600 text-white"
               : "bg-secondary text-secondary-foreground hover:bg-green-100 hover:text-green-800"

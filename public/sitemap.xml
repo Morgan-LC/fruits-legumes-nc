@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Pages principales -->
+  <url>
+    <loc>https://de-saison.nc/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://de-saison.nc/calendrier</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://de-saison.nc/fruits</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://de-saison.nc/legumes</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://de-saison.nc/a-propos</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Fruits -->
+  <url><loc>https://de-saison.nc/produit/ananas</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/avocat</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/banane-poingo</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/banane-william</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/carambole</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/citron</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/corossol</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/figue</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/fraise</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/framboise</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/goyave</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/jacque</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/kumquat</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/lime</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/litchi</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/longan</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/mandarine</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/mangue</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/melon</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/orange</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pamplemousse</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/papaye</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pasteque</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/peche</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pitaya</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pomme-cannelle</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pomme-cythere</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pomme-etoile</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pomme-liane</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- Légumes -->
+  <url><loc>https://de-saison.nc/produit/aubergine</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/betterave</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/blette</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/brocoli</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/carotte</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/celeri</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/champignon</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chouchoute</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chou-fleur</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chou-de-chine</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chou-rave</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chou-rouge</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/chou-vert</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/citrouille</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/concombre</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/courgette</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/endive</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/fenouil</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/haricot</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/herbes</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/igname</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/mais</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/manioc</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/navet</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/oignon-sec</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/patate-douce</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/patisson</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/poireau</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/poivron</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/pomme-de-terre</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/radis</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/radis-noir</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/salade</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/squash</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/taro</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://de-saison.nc/produit/tomate</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+</urlset>

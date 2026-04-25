@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "react-router-dom";
 import { ArrowRight, Sun, Leaf, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,11 @@ import { getFullSeasonProduce, getInSeasonProduce } from "@/data/produce";
 import { MONTH_NAMES } from "@/types";
 
 export function HomePage() {
+  useSEO({
+    title: "Fruits & Légumes NC",
+    description: "Découvrez les fruits et légumes de saison produits localement en Nouvelle-Calédonie, mois par mois. Consommez local, frais et de saison.",
+  });
+
   const currentMonth = useMemo(() => new Date().getMonth(), []);
   const currentMonthName = MONTH_NAMES[currentMonth];
 

@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, Leaf } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -26,6 +27,11 @@ export function ProduceDetailPage() {
       )
       .slice(0, 4);
   }, [produce, currentMonth]);
+
+  useSEO({
+    title: produce ? `${produce.name} — ${produce.category === "fruit" ? "Fruit" : "Légume"} de saison en Nouvelle-Calédonie` : "Produit",
+    description: produce?.description,
+  });
 
   if (!produce) {
     return <Navigate to="/" replace />;

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CalendarTable } from "@/components/CalendarTable";
 import { MonthPicker } from "@/components/MonthPicker";
@@ -6,13 +7,18 @@ import { SeasonLegend } from "@/components/SeasonLegend";
 import { fruits, legumes } from "@/data/produce";
 
 export function CalendarPage() {
+  useSEO({
+    title: "Calendrier saisonnier",
+    description: "Calendrier complet des fruits et légumes produits localement en Nouvelle-Calédonie, mois par mois. Données IFEL / CAP-NC 2022.",
+  });
+
   const [highlightMonth, setHighlightMonth] = useState<number>(new Date().getMonth());
 
   return (
-    <div className="container py-8 flex flex-col gap-8">
+    <div className="container py-4 md:py-8 flex flex-col gap-5 md:gap-8">
       <div>
-        <h1 className="text-3xl font-bold mb-2">Calendrier saisonnier</h1>
-        <p className="text-muted-foreground max-w-2xl">
+        <h1 className="text-2xl md:text-3xl font-bold mb-2">Calendrier saisonnier</h1>
+        <p className="text-sm md:text-base text-muted-foreground max-w-2xl">
           Retrouvez la disponibilité de tous les fruits et légumes produits localement en
           Nouvelle-Calédonie, mois par mois. Données issues du calendrier IFEL / CAP-NC (2022).
         </p>

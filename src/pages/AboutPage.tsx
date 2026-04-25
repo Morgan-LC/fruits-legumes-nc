@@ -1,8 +1,14 @@
 import { Leaf, BookOpen, MapPin, Users } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
 export function AboutPage() {
+  useSEO({
+    title: "À propos",
+    description: "En savoir plus sur le calendrier saisonnier des fruits et légumes de Nouvelle-Calédonie. Données issues du calendrier IFEL / CAP-NC 2022.",
+  });
+
   return (
     <div className="container py-8 max-w-3xl flex flex-col gap-8">
       <div>

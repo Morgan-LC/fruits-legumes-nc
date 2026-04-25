@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -13,6 +14,13 @@ interface ProduceListPageProps {
 }
 
 export function ProduceListPage({ category }: ProduceListPageProps) {
+  useSEO({
+    title: category === "fruit" ? "Fruits de saison en Nouvelle-Calédonie" : "Légumes de saison en Nouvelle-Calédonie",
+    description: category === "fruit"
+      ? `Les ${fruits.length} fruits produits localement en Nouvelle-Calédonie avec leur calendrier de disponibilité mois par mois.`
+      : `Les ${legumes.length} légumes produits localement en Nouvelle-Calédonie avec leur calendrier de disponibilité mois par mois.`,
+  });
+
   const allItems = category === "fruit" ? fruits : legumes;
   const [search, setSearch] = useState("");
   const [selectedMonth, setSelectedMonth] = useState<number | null>(new Date().getMonth());
