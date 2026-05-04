@@ -6,6 +6,7 @@ import { CalendarPage } from "@/pages/CalendarPage";
 import { ProduceListPage } from "@/pages/ProduceListPage";
 import { ProduceDetailPage } from "@/pages/ProduceDetailPage";
 import { AboutPage } from "@/pages/AboutPage";
+import { NotFoundPage } from "@/pages/NotFoundPage";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/legumes" element={<ProduceListPage category="legume" />} />
             <Route path="/produit/:id" element={<ProduceDetailPage />} />
             <Route path="/a-propos" element={<AboutPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />
